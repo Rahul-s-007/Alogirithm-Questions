@@ -134,7 +134,7 @@ def updateDistance(mat, result):
     # find all "1" location and add them to the queue
     for i in range(M):
         for j in range(N):
-            # if current cell represents a mine
+            # if current cell represents a "1"
             if mat[i][j] == 1:
                 q.append((i, j, 0))
 
@@ -290,12 +290,12 @@ while len(snacks)>0:
         except:
             break
 
-
+#-X AND Y COORDINATES OF THE SHORTEST PATH TO COLLECT ALL SNACKS
 print("-----------")
 print(final_x)
 print(final_y)
 
-
+#-LOCATION OF ALL THE SNACKS COLLECTED
 print("-----------")
 print(reached)
 
