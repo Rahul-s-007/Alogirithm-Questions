@@ -1,8 +1,22 @@
+#--Credentials-----------------------------------------------------------------------------
+
+## Author: Rahul V Sumbly
+## Date: 27/11/2020
+## Copyright: Copyright 2020, Snacks Collection Problem
+## Credits: Rahul V Sumbly
+## License: ~None~
+## Version: {mayor}.{minor}.{rel}
+## Maintainer: Rahul V Sumbly
+## Email: rahulrtg7703@gmail.com
+## Status: COMPLETED
+
+#-------------------------------------------------------------------------------------------
+
 import numpy as np
 import math
-#  O represents an open cell,
-#  X represents a blocked cell and
-#  M represents landmines in the maze
+#  "0" represents an open cell,
+#  "2" represents a blocked cell and
+#  "1" represents snacks in the maze
 
 from collections import deque
 
